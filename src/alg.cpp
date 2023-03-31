@@ -26,6 +26,6 @@ int cbinsearch(int *arr, int size, int value) {
         }
     }
     tmp_r = r;
-    res = tmp_r - tmp_l;
+    r = tmp_r - tmp_l;
     return r;
 }
