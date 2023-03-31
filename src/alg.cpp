@@ -2,10 +2,10 @@
 
 int cbinsearch(int *arr, int size, int value) {
   int l = 0;
-    int r ;
+    int r = size;
     int m;
     int tmp_l, tmp_r;
-    int r = size;
+    int r;
     while (l < r) {
         m = (l + r) / 2;
         if (value > arr[m]) {
